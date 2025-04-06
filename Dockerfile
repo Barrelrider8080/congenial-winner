@@ -1,3 +1,5 @@
 FROM grafana/grafana
 
+ENV GF_SECURITY_ADMIN_PASSWORD=admin
+
 EXPOSE 3000
